@@ -24,5 +24,9 @@ namespace WPF
 		{
 			InitializeComponent();
 		}
+		private void btnStart_Click(object sender, RoutedEventArgs e)
+		{
+			btnStart.Content = btnStart.Content == "Stop" ? "Start" : "Stop";
+		}
 	}
 }
