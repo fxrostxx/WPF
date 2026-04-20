@@ -8,28 +8,38 @@
         Title="Binding" Width="300" Height="450" FontFamily="Arial" FontSize="16">
     <Grid FocusManager.FocusedElement="{Binding ElementName=txtInput}">
         <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
         <TextBox
             Name="txtInput"
-            Grid.Row="0"
-            Width="250" Height="40"
+            Grid.Row="1" Grid.Column="1"
             HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+            TextWrapping="Wrap"
             Text="{Binding BoundText, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource}"
             />
         <Button
             Name="btnSet"
-            Grid.Row="1"
+            Grid.Row="3" Grid.Column="1"
             Width="250" Height="40"
             Content="Set"
             Click="BtnSet_Click"
             />
         <TextBlock
             Name="tbResult"
-            Grid.Row="2"
+            Grid.Row="5" Grid.Column="1"
             HorizontalAlignment="Center" VerticalAlignment="Center"
+            TextWrapping="Wrap"
             Text="{Binding BoundText}"
             />
     </Grid>
