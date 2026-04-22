@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding", "Binding\Binding.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox", "ListBox\ListBox.csproj", "{43BAC658-175E-4B02-A5B8-6BF00A301529}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuBar", "MenuBar\MenuBar.csproj", "{4C2CE119-1A6D-40A9-93E4-E7C378F54184}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{43BAC658-175E-4B02-A5B8-6BF00A301529}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43BAC658-175E-4B02-A5B8-6BF00A301529}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43BAC658-175E-4B02-A5B8-6BF00A301529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2CE119-1A6D-40A9-93E4-E7C378F54184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2CE119-1A6D-40A9-93E4-E7C378F54184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2CE119-1A6D-40A9-93E4-E7C378F54184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2CE119-1A6D-40A9-93E4-E7C378F54184}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
