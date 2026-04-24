@@ -10,6 +10,9 @@
         <TextBox
             Name="txtInput"
             VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+            Background="Transparent"
+            KeyDown="txtInput_KeyDown"
+            TextChanged="txtInput_TextChanged"
             />
         <TextBlock
             Name="tbPlaceholder"
@@ -27,6 +30,7 @@
             FontSize="17"
             Background="Transparent" Foreground="LightGray"
             BorderThickness="0"
+            IsTabStop="False"
             Click="btnClear_Click"
             />
     </Grid>

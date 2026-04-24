@@ -16,6 +16,11 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <customTextBoxControl:ClearableTextBox Grid.Row="1" Width="250" Height="40"/>
+        <customTextBoxControl:ClearableTextBox Grid.Row="0" Width="250" Height="40" Placeholder="Last name"/>
+        <customTextBoxControl:ClearableTextBox Grid.Row="1" Width="250" Height="40" Placeholder="First name"/>
+        <customTextBoxControl:ClearableTextBox Grid.Row="2" Width="250" Height="40" Placeholder="Middle name"/>
+        <customTextBoxControl:ClearableTextBox Grid.Row="3" Width="250" Height="40" Placeholder="Birth date"/>
+        <customTextBoxControl:ClearableTextBox Grid.Row="4" Width="250" Height="40" Placeholder="E-mail"/>
+        <customTextBoxControl:ClearableTextBox Grid.Row="5" Width="250" Height="40" Placeholder="Phone"/>
     </Grid>
 </Window>
